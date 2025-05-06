@@ -4,7 +4,7 @@
 
 import java.util.List;
 
-public class reverseArray {
+public class rotateArray {
     private static List<Integer> reverse(List<Integer> arr, int start, int end){
         while(start < end){
             int temp = arr.get(start);
