@@ -43,7 +43,7 @@ public class AwsLog {
                 Arrays.asList("01-02-2022", "10:05", "ERROR", "An error occurred"),
                 Arrays.asList("01-02-2022", "09:30", "DEBUG", "This is a debug log"),
                 Arrays.asList("01-02-2022", "12:15", "CRITICAL", "A critical error occurred"),
-                Arrays.asList("01-02-2022", "11:00", "ERROR", "Another error occurred")
+                Arrays.asList("01-02-2023", "11:00", "ERROR", "Another error occurred")
         );
 
         List<List<String>> result = filterAndSortLogs(logs);

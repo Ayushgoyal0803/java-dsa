@@ -69,7 +69,8 @@ class Analytics {
             }
         }
 
-        result.sort(Comparator.comparing(Enum::name));
+//        result.sort(Comparator.comparing(Enum::name));
+        Collections.sort(result);
         return result;
     }
 }
